@@ -1,5 +1,8 @@
 def find_element_index(array, value_to_find)
-  puts find_element_index.find_element_index["value_to_find"]
+  i = 0 
+  while i < array.length do
+    array.index(value_to_find[i])
+  end
 end
 
 def find_max_value(array)
